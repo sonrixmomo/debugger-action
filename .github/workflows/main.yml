@@ -1,8 +1,3 @@
-name: 'Debugger'
-description: 'Interactive debugger for GitHub Action with tmate.io'
-runs:
-  using: 'node12'
-  main: 'action.js'
-branding:
-  icon: 'terminal'
-  color: 'green'
+steps:
+- name: Setup Debug Session
+  uses: csexton/debugger-action@master
